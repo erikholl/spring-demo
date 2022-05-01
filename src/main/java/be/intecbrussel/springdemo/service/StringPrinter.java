@@ -7,7 +7,7 @@ import org.springframework.stereotype.Service;
 import javax.annotation.PostConstruct;
 import javax.annotation.PreDestroy;
 
-@Service
+//@Service
 @Scope("prototype")
 @Lazy
 public class StringPrinter {
